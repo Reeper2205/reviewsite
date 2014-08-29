@@ -1,0 +1,17 @@
+<?php
+    include "setup.php";
+	
+    $name =$_POST['first_name'];
+    $comment =$_POST['comments'];
+	
+	$name = mysql_real_escape_string($_POST['first_name']);
+	$comment = mysql_real_escape_string($_POST['comments']);
+
+
+	$sql="INSERT INTO comments ( Comments,game_FK,user_fk) VALUES ('$comment','All','$name')";
+	
+	
+	 mysql_query("INSERT INTO comments ( Comments,game_FK,user_fk) VALUES ('$comment','All','$name')");
+	header("Location: reviews.php");
+	die();
+?>
