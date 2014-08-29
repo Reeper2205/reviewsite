@@ -1,0 +1,43 @@
+html {background:Black;}
+
+body {width:900px; margin:0 auto; border-left:auto transparent; border-right:auto; background-color: black; color:#DEDEE9;}
+#header{z-index: 1;position: fixed; width: 900px; margin-top: -20px; height: 160px; background-color: 	#676778; margin-bottom: 10px;}
+
+form{float: right; }
+strong{font-size: 24px; font-family: Snap ITC,Goudy stout, ravic, sans-serif; }
+img{width:23%; height: 170px; margin-left: 1px; }
+span{color: Blue;}
+h3{color: navy; font-size: 18px;}
+
+#logo {float: left;font-family: Veranda, sans-serif; font-size: 22px; text-align: left;margin-left: 30px;}
+#tagline {float:right; font-family: Snap ITC,Goudy stout, ravic, sans-serif; font-size: 22px; color: black; margin-right:140px;}
+#nav {margin-top:40px;;font-size: 18px; color: #DEDEE9;width: 900px; }
+
+#headings{position: relative;height: 40px;background-color: #ACACC8;clear: both;font-family: Snap ITC,Goudy stout, ravic, sans-serif;font-size: 24px;text-align: center; width: 95.7%;}
+#headings a:last-child {border-right:none;margin-left:10px; border-right:1px solid black; padding-right:10px; }
+#headings a {margin-left:10px; border-right:1px solid black; padding-right:10px;}
+
+a:hover {font-weight: bold;}
+a:link {color: black;}
+a:visited {color: navy; }
+a:active { color: aqua; background-color: navy;}
+         
+#pics img{width: 98%; height:300px; margin: 2px;}
+#photo img{width: 98%; height: 300px; margin: 2px;}
+#first {margin-top:175px;}
+
+table {border-collapse:collapse; border-spacing:0; width:100%;position:relative;background-color: #DEDEE9 }
+table th,
+table td {border:1px solid #D6D6E4;}
+table td {font-size:14px; padding:2px; text-align:center; color:	black; padding:10px 0;}
+table th {background:#676778; color:	#C5C5D8; font-weight:7cc00; padding:.5em; text-align:center;font-size: 10px; font-family:Bell MT, Agency FB;}
+table p {position: relative;background-color: #DEDEE9;clear: both;font-family: Snap ITC,Goudy stout, ravic, sans-serif;font-size: 12px;text-align: center; width: 95%;}
+
+.right {position: relative;float:right;margin-top: 2px;width: 49.9%;height: 400px;background-color: #DEDEE9;margin-bottom: 10px;}
+.left {position: relative;float: left;margin-top: 2px;width: 49%;height: 400px;background-color: #DEDEE9;margin-bottom: 10px;}
+
+#footer {border-top:1px solid #ccc; padding-top:20px; height: 100px;position:relative;margin-top:100%; clear:both;  }
+#footer a:last-child {border-right:none;margin-left:10px; border-right:1px solid white; padding-right:10px; color: white;}
+#footer a {margin-left:10px; border-right:1px solid white; padding-right:10px; color: white;}
+#footer p {font-family: Bell MT, Agency FB; font-size: 17px;}
+
