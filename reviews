@@ -1,0 +1,42 @@
+
+<?php 
+$title = "Reviews";
+include 'header.php';
+?>     
+<div class="main-content">
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>		
+	<?php include 'gamesManyToMany.php'; ?>
+	<h3>
+	Please Feel Free to insert a comment!
+	</h3>
+	<div id ="comments">
+		<table>
+			<form action="storedata.php" method="post">
+				
+				<p align = left> Name: 
+				<input type="text" name="first_name" />
+				<br>
+
+				<p align = left>Comments:<br />
+				<textarea name="comments" id="comments" style="width:350px;height:150px;">
+				</textarea><br />
+				<input type="Submit" value="Submit" />
+				<input type="reset" value="Reset" />
+				
+				
+			</form>
+		</table>
+	</div>
+	<div id ="User Comments">
+		<table>
+			<form>
+				<h3> User Comments </h3>
+					<?php include 'displayUserComments.php'; ?>
+			
+			</form>
+		</table>
+	</div>
+</div>
+
+	 
+<?php include 'footer.php';?>
