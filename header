@@ -1,0 +1,27 @@
+<?php include 'setup.php';?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel=stylesheet type="text/css" href="stylesheet2.css"
+		<title><?php echo $title; ?></title>         
+    </head>
+	
+	<body>  		
+		<div id="header">   
+            <p id="logo"><h1>Gaming Ireland</h1></p>
+            <p id="tagline"><?php echo $title; ?></p>
+        
+			<div id="nav">		         
+				<ul id = "headings">
+					<li>
+						<a href="Home.php">Home</a>
+						<a href="FAQs.php">FAQ</a>
+						<a href="reviews.php">Reviews</a>
+						<a href="NewReleases.php">New Releases</a>
+					</li>
+				</ul>
+			</div> 	
+     	</div> 
+		
+		<!-- end of header div -->
