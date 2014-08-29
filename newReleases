@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel=stylesheet type="text/css" href="stylesheet2.css"
+		<title>New Releases</title>
+         
+    </head>
+    <body>
+        <div id="header">
+		  
+    
+                 <p id="logo"><h1>Gaming Ireland</h1></p>
+                 <p id="tagline">New Releases</p>
+        
+        <div id="nav">
+		    
+          
+		    <ul id = "headings">
+	             <li>
+				    <a href="Home.php">Home</a>
+				    <a href="FAQs.php">FAQ</a>
+				    <a href="reviews.php">Reviews</a>
+				    <a href="NewReleases.php">New Releases</a>
+				 </li>
+             </ul>
+        </div>  <!-- end of nav div -->
+       
+     	</div> <!-- end of header div -->   
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+		 <h1> COMING SOON!!</h1>
+		
+		 
+		 
+		 
+        <div id="footer">
+			<p><a href="Home.html">Home</a><a href="reviews.html">Page two</a><a href="FAQs.html">Page three</a><a href="NewReleases.html">Page four</a></p>
+			<p> All rights reserved: this page was updated 12:12:2014: Don't try to copy this because it's a bit shit: thanks for looking dumb ass</p>
+		</div>
+    </body>
+</html>
