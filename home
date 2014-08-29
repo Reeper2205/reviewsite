@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel=stylesheet type="text/css" href="stylesheet2.css"
+		<title>Irish Gamers Web Forum</title>
+         
+    </head>
+    <body>
+        <div id="header">
+		    <form action="/cgi-bin/hello_get.cgi" method="get">
+                <p align = right> User name: 
+                     <input type="text" name="first_name" />
+                     <br>
+                     Password: 
+                     <input type="text" name="User_name" />
+			    </p>
+					 <br>
+                     <input type="submit" value="Submit" />
+                     <input type="reset" value="Reset" />
+            </form> 
+    
+                 <p id="logo"><h1>Gaming Ireland</h1></p>
+                 <p id="tagline">Gamers Web Forum</p>
+        
+        <div id="nav">
+		    
+          
+		    <ul id = "headings">
+	             <li>
+				    <a href="Home.php">Home</a>
+				    <a href="FAQs.php">FAQ</a>
+				    <a href="reviews.php">Reviews</a>
+				    <a href="NewReleases.php">New Releases</a>
+				 </li>
+             </ul>
+        </div>  <!-- end of nav div -->
+       
+     	</div> <!-- end of header div -->   
+		
+		  
+		  
+        <table id="first">
+			<tr>
+				<th>
+					<img src="images/guild-wars.jpg" title="It helped Mark fail the course"/>
+					<img src="images/Fable 3.jpg" title="A Story about a boy"/>
+					<img src="images/Super-Meat-Boy.jpg" title="He Likes meat"/>
+					<img src="images/elder-scrolls.jpg" title="The game for old people"/>
+				</th>
+			</tr>
+        </table>    <!-- end of banner table div --> 
+  
+  
+        <table>
+			<tr>
+				<th><h3>Guild Wars</h3></th>
+				<th><h3>Fable 3</h3></th>
+				<th><h3>Super Meat Boy</h3> </th>
+				<th><h3>Elder Scrolls<h3> </th>
+			</tr>
+	    </table>    <!-- end of titles table div --> 
+        
+		
+		     <!-- end of headings table div --> 
+        
+		<div class ="left">	
+        <table>
+            <tr>
+				<th><strong>New Releases<strong></th>
+        	</tr>
+        </table>
+
+
+		
+        <table>  
+  
+             <tr>
+				
+				<td><span>Bla bla </span>Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blahLallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+					<a href="NewReleases.html">More</a>
+				</td>
+					
+				<th></th>
+					
+			    <td><span>Bla bla </span> Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blahLallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+					<a href="NewReleases.html">More</a>
+				</td>
+			</tr>
+  
+        </table>    <!-- end of first table left div --> 
+		<table id="pics">
+				
+				
+                <tr>
+					<td>
+					<img src="images/GoT.jpg" title="The game about a toilet"/>
+			        </td>
+				</tr>
+        </table>  
+		 
+		 		 
+		<table>
+            <thead>
+                <tr>
+                     <th><h1>UseFull Info<h1></th>
+      
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                     <td>Shops with bargins</td>
+      
+                </tr>
+            <tr>
+                     <td>Best On Line Stores</td>
+      
+                 </tr>
+            </tbody>
+
+            <tfoot>
+                 <tr>
+            <td>other web sites</td>
+                </tr>
+             </tfoot>
+        </table>
+		 
+        </div> <!-- end of left div --> 
+		 
+		 
+		 
+		<div class = "right">
+		
+		<table>  
+            <tr>
+				<th><strong>Reviews<strong></th>
+		    </tr>
+		</table>
+		
+		
+		
+        <table>  
+  
+            <tr>
+				<td><span>Bla bla </span> Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blahLallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+				<a href="reviews.html">More</a>
+				</td>
+			</tr>
+  
+        </table>  
+            <br>
+	    <table>  
+            <tr>
+				<th><span>Bla bla </span>Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blahLallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+				<a href="reviews.html">More</a>
+				</th>
+			</tr>
+  
+        </table>  
+              <br>
+		<table>  
+            <tr>
+				<td><span>Bla bla </span>Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blahLallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+				<a href="reviews.html">More</a>
+				</td>
+			</tr>
+  
+         </table>  
+              <br>
+		 <table>  
+		    <tr>
+			    <th><span>Bla bla </span>Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blahLallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+				<a href="reviews.html">More</a>
+				</th>
+			</tr>
+        </table>  
+             <br>
+		<table>  
+            <tr>
+		        <td><span>Bla bla </span> Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah Lallalalalalalalalalallablahblah blah blah blah blah blah 
+				blah blah blah blah blah blah blah blah blah blah I LOVE CODING blah lalalalalalalala
+				HTML YAY blah blah blah blah
+				<a href="reviews.html">More</a>
+			    </td>
+			</tr>
+        </table> 
+		
+		<table id = "photo">
+			<tr>
+				<th>
+					<img src="images/Dark Souls II.jpg" title="It ruined Daves life"/>
+		        </th>
+			</tr>
+        </table>  
+		
+		</div>
+		 
+		 
+		 
+        <div id="footer">
+			<p><a href="Home.html">Home</a><a href="reviews.html">Page two</a><a href="FAQs.html">Page three</a><a href="NewReleases.html">Page four</a></p>
+			<p> All rights reserved: this page was updated 12:12:2014: Don't try to copy this: thanks for looking</p>
+		</div>
+    </body>
+</html>
