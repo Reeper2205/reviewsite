@@ -1,0 +1,10 @@
+<?php
+
+	$result = mysql_query('SELECT * FROM comments');
+
+	while ($row = mysql_fetch_assoc($result)) {
+		echo '<li>Name: '.$row['user_fk'].' <br> Comment: '.$row['Comments'].'</li>';	
+	}
+		
+
+?>
