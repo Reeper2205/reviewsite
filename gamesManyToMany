@@ -1,0 +1,25 @@
+<h1>Games</h1>
+
+<?php
+	include 'setup.php';
+// an id has been passed in so display the details of that specific game
+if (isset($_GET['ID'])) {
+	$game_id = $_GET['ID'];
+
+	$result = mysql_query('SELECT * FROM game_review  WHERE ID = '.$game_id);
+	while ($row = mysql_fetch_assoc($result)) {
+		echo '<h3>'.$row['Title'].'<h3>';
+		echo '<p>'.$row['Description'].'<p>';	
+	}
+}	
+
+// no id found so display all of the games
+else {
+	$result = mysql_query('SELECT * FROM game_review');
+	echo "<ul>";
+	while ($row = mysql_fetch_assoc($result)) {
+		echo '<li><a href="reviews.php?ID='.$row['ID'].'">'.$row['Title'].'</a></li>';	
+	}
+	echo "</ul>";	
+}
+?>
